@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAH Guelassé Ariel Yohann Mondésir | Développeur Logiciel & Mobile</title>
+  <meta name="description"
+    content="Portfolio de TAH Guelassé Ariel Yohann Mondésir - Développeur Mobile, Web, Logiciel & solutions connectées.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Effet Spotlight lumineux -->
+  <div id="spotlight"></div>
+
+  <div class="container">
+    <!-- Colonne de gauche (Fixe en grand écran) -->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-meta">
+          <div>
+            <h1 class="name">
+              <a href="#" style="color: inherit; text-decoration: none;">Ariel Yohann TAH</a>
+            </h1>
+            <h2 class="title">Développeur Logiciel, Mobile & IA</h2>
+          </div>
+          <!-- Sélecteur de Thème Stylé -->
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer de thème">
+            <!-- Icône Lune pour passer en Dark -->
+            <svg class="sun-icon" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Icône Soleil pour passer en Light -->
+            <svg class="moon-icon" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <p class="tagline">
+          Je conçois des expériences numériques interactives, des applications mobiles et des architectures logicielles
+          fiables couplées à l'intelligence artificielle.
+        </p>
+
+        <!-- Navigation style Brittany Chiang -->
+        <nav class="nav-menu" aria-label="Navigation principale">
+          <ul>
+            <li>
+              <a class="nav-link active" href="#about">
+                <span class="nav-indicator"></span>
+                <span class="nav-text">À propos</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#technologies">
+                <span class="nav-indicator"></span>
+                <span class="nav-text">Technologies</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#projects">
+                <span class="nav-indicator"></span>
+                <span class="nav-text">Projets</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">
+                <span class="nav-indicator"></span>
+                <span class="nav-text">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Liens sociaux & CV en bas à gauche -->
+      <div>
+        <ul class="social-links" aria-label="Réseaux sociaux et contact">
+          <!-- GitHub -->
+          <li>
+            <a href="https://github.com/arielyohanntah-sketch" target="_blank" rel="noreferrer noopener" title="GitHub"
+              class="social-icon-link github-icon">
+              <span style="display:none">GitHub</span>
+              <svg viewBox="0 0 24 24" role="img">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+            </a>
+          </li>
+          <!-- LinkedIn -->
+          <li>
+            <a href="https://www.linkedin.com/in/guelassé-ariel-yohann-mondésir-tah-b823193b1" target="_blank"
+              rel="noreferrer noopener" title="LinkedIn" class="social-icon-link linkedin-icon">
+              <span style="display:none">LinkedIn</span>
+              <svg viewBox="0 0 24 24" role="img">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </li>
+          <!-- Email -->
+          <li>
+            <a href="mailto:taharielyohann@gmail.com" title="Envoyer un email" class="social-icon-link email-icon">
+              <span style="display:none">Email</span>
+              <svg viewBox="0 0 24 24" role="img">
+                <path
+                  d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l9.518 7.713 9.518-7.713v11.817h-19.036z" />
+              </svg>
+            </a>
+          </li>
+          <!-- Bouton CV -->
+          <li>
+            <a href="https://drive.google.com/file/d/1vPGq-IBD9EPiex0bcf8lkF_5XZ0r1nGY/view?usp=sharing" target="_blank"
+              rel="noreferrer noopener" class="cv-button" title="Voir mon CV">
+              <span>CV</span>
+              <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24">
+                <path
+                  d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Colonne de droite (Contenu scrollable) -->
+    <main class="main-content">
+      <!-- Section À propos -->
+      <section id="about" class="section">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Je m'appelle <strong>TAH Guelassé Ariel Yohann Mondésir</strong>, étudiant en Génie Logiciel à l'<strong>Institut Ivoirien de Technologie (IIT)</strong>. Passionné par la conception logicielle et les technologies modernes, je suis actuellement à la recherche d'opportunités de <strong>stage ou d'alternance</strong> pour mettre mes compétences en pratique et relever de nouveaux défis techniques.
+            </p>
+            <p>
+              Mon parcours m'a amené à concevoir des applications mobiles avec <strong>Flutter / Firebase</strong>, des
+              architectures de bureau <strong>Windows Forms / C#</strong> interconnectées avec des bases de données
+              relationnelles (SQL Server, MySQL, SQLite), ainsi que des scripts d'automatisation et de scraping de
+              données en <strong>Python</strong>.
+            </p>
+            <p>
+              Je conçois également des projets intégrant l'<strong>intelligence artificielle</strong>, tout en accordant
+              un soin méticuleux à l'ergonomie, la structure propre du code et la performance.
+            </p>
+          </div>
+
+          <!-- Effet Photo stylisé v4.brittanychiang.com -->
+          <div class="photo-wrapper">
+            <div class="photo-frame-border"></div>
+            <div class="photo-container">
+              <!-- Avatar / Photo avec effet v4 -->
+              <img src="assets/images/profile.png" alt="TAH Guelassé Ariel Yohann Mondésir">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Technologies -->
+      <section id="technologies" class="section">
+        <h2 class="section-title">Technologies & Compétences</h2>
+
+        <div class="skills-block">
+          <div class="skills-category-title">Langages & Frameworks</div>
+          <div class="tags-list">
+            <span class="tag-badge"><i class="devicon-python-plain colored"></i> Python</span>
+            <span class="tag-badge"><i class="devicon-flutter-plain colored"></i> Flutter</span>
+            <span class="tag-badge"><i class="devicon-dart-plain colored"></i> Dart</span>
+            <span class="tag-badge"><i class="devicon-csharp-plain colored"></i> C# / .NET</span>
+            <span class="tag-badge"><i class="devicon-c-plain colored"></i> C</span>
+            <span class="tag-badge"><i class="devicon-html5-plain colored"></i> HTML5</span>
+            <span class="tag-badge"><i class="devicon-css3-plain colored"></i> CSS3</span>
+            <span class="tag-badge"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</span>
+            <span class="tag-badge"><i class="devicon-windows8-original colored"></i> Windows Forms</span>
+            <span class="tag-badge"><i class="devicon-embeddedc-plain colored"></i> Intelligence Artificielle
+              (IA)</span>
+          </div>
+
+          <div class="skills-category-title">Bases de données & Cloud</div>
+          <div class="tags-list">
+            <span class="tag-badge"><i class="devicon-microsoftsqlserver-plain colored"></i> SQL Server</span>
+            <span class="tag-badge"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+            <span class="tag-badge"><i class="devicon-sqlite-plain colored"></i> SQLite</span>
+            <span class="tag-badge"><i class="devicon-firebase-plain colored"></i> Firebase</span>
+          </div>
+
+          <div class="skills-category-title">Outils & Environnements</div>
+          <div class="tags-list">
+            <span class="tag-badge"><i class="devicon-git-plain colored"></i> Git & GitHub</span>
+            <span class="tag-badge"><i class="devicon-vscode-plain colored"></i> VS Code</span>
+            <span class="tag-badge"><i class="devicon-visualstudio-plain colored"></i> Visual Studio Community</span>
+            <span class="tag-badge"><i class="devicon-pycharm-plain colored"></i> PyCharm</span>
+            <span class="tag-badge"><i class="devicon-androidstudio-plain colored"></i> Android Studio</span>
+            <span class="tag-badge"><i class="devicon-microsoftsqlserver-plain colored"></i> SSMS</span>
+            <span class="tag-badge"><i class="devicon-cplusplus-plain colored"></i> Code::Blocks</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Projets -->
+      <section id="projects" class="section">
+        <h2 class="section-title">Projets Sélectionnés</h2>
+
+        <div class="cards-list">
+          <!-- Projet 1 : prof-ci -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch/prof-ci" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Mobile App</div>
+            <div class="card-main">
+              <h3>
+                <span>prof-ci</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Né d'un besoin concret de faciliter les échanges entre apprenants et enseignants. Ce projet a été mon
+                point d'ancrage dans l'univers mobile : il m'a appris à gérer le cycle de vie d'une application Flutter,
+                synchroniser des données en temps réel avec Firebase, structurer l'authentification et collaborer en
+                équipe autour des attentes réelles des utilisateurs.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">Flutter</span>
+                <span class="tag-badge">Dart</span>
+                <span class="tag-badge">Firebase</span>
+                <span class="tag-badge">Gestion d'État</span>
+                <span class="tag-badge">Mobile UI</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Projet 2 : T&A Rénovation -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch/Demo-site" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Web Front-End</div>
+            <div class="card-main">
+              <h3>
+                <span>Site Démonstration (T&A Rénovation)</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Conception du front-end d'un site vitrine pour une entreprise de rénovation. Un projet réalisé dans
+                l'optique de m'exercer et d'approfondir mes compétences : structurer une page propre en HTML, pratiquer
+                la mise en page responsive avec CSS et soigner les détails visuels pour offrir une navigation agréable.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">HTML5</span>
+                <span class="tag-badge">CSS3</span>
+                <span class="tag-badge">Responsive Design</span>
+                <span class="tag-badge">Front-End</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Projet 3 : scraping-amazon -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch/scraping-amazon" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Automation & Data</div>
+            <div class="card-main">
+              <h3>
+                <span>scraping-amazon</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Automatisation de l'extraction d'informations sur des pages produits Amazon. Ce script m'a permis de
+                pratiquer Python pour récupérer des éléments dans le code source d'une page web, appréhender la gestion
+                des requêtes et enregistrer des données de façon ordonnée.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">Python</span>
+                <span class="tag-badge">Web Scraping</span>
+                <span class="tag-badge">Parsing de Données</span>
+                <span class="tag-badge">Automatisation</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Projet 4 : Analyse du marché -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch/Analyse_du_Marche" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Data Analysis</div>
+            <div class="card-main">
+              <h3>
+                <span>Analyse du marché</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Projet d'exploration de données de marché. Il m'a servi à m'exercer au traitement de données avec Python
+                : parcourir des tableaux de chiffres, appliquer des calculs comparatifs et mettre en évidence des
+                informations utiles pour mieux comprendre les tendances.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">Python</span>
+                <span class="tag-badge">Data Analysis</span>
+                <span class="tag-badge">Traitement de Données</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Projet 5 : GESTION_BIBLIOTHEQUE -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch/GESTION_BIBLIOTHEQUE" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Software & POO</div>
+            <div class="card-main">
+              <h3>
+                <span>GESTION_BIBLIOTHEQUE</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Programme qui modélise le fonctionnement d'une véritable bibliothèque de livres. Conçu en Python, il m'a
+                permis d'appliquer les principes de la programmation orientée objet (POO) pour gérer le catalogue
+                d'ouvrages, les emprunteurs et le suivi des retours de manière organisée.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">Python</span>
+                <span class="tag-badge">POO</span>
+                <span class="tag-badge">Gestion d'Inventaire</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Projet 6 : Applications Desktop & Bases de données -->
+          <a class="project-card" href="https://github.com/arielyohanntah-sketch" target="_blank"
+            rel="noreferrer noopener">
+            <div class="card-header-badge">Desktop & DB</div>
+            <div class="card-main">
+              <h3>
+                <span>Applications Desktop & Bases de données</span>
+                <span class="card-arrow">↗</span>
+              </h3>
+              <p>
+                Développement d'interfaces de bureau en C# (Windows Forms) connectées à des bases de données comme SQL
+                Server et MySQL. Ce travail m'a appris à créer des formulaires interactifs, exécuter des opérations CRUD
+                (ajout, modification, suppression) et manipuler des données réelles.
+              </p>
+              <div class="project-tags">
+                <span class="tag-badge">C#</span>
+                <span class="tag-badge">Windows Forms</span>
+                <span class="tag-badge">SQL Server</span>
+                <span class="tag-badge">MySQL</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Section Contact (Prêt pour Django) -->
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-form-container">
+          <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+            Vous avez un projet en tête, une question ou une opportunité de collaboration ? Envoyez-moi un message
+            direct via le formulaire ci-dessous.
+          </p>
+
+          <!-- Formulaire -->
+          <form id="contact-form" class="contact-form" method="POST" action="">
+            <!-- Emplacement lors de la connexion Django -->
+
+            <div class="form-group">
+              <label for="id_name">Votre Nom & Prénom </label>
+              <input type="text" id="id_name" name="name" class="form-control" placeholder="Ex: Tah Ariel" required>
+            </div>
+
+            <div class="form-group">
+              <label for="id_email">Votre Adresse Email </label>
+              <input type="email" id="id_email" name="email" class="form-control"
+                placeholder="Ex: taharielyohann@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="id_subject">Objet du Projet</label>
+              <input type="text" id="id_subject" name="subject" class="form-control"
+                placeholder="Ex: Création d'application mobile ou web">
+            </div>
+
+            <div class="form-group">
+              <label for="id_message">Votre Message </label>
+              <textarea id="id_message" name="message" class="form-control" rows="5"
+                placeholder="Parlez-moi de votre projet ou besoin..." required></textarea>
+            </div>
+
+            <button type="submit" id="btn-submit-contact" class="btn-submit">
+              <span>Envoyer le message</span>
+              <span>✉</span>
+            </button>
+
+            <div id="contact-feedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- jQuery pour valider le critère officiel d'évaluation -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
